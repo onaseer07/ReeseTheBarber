@@ -1,14 +1,52 @@
 h1,h2,h3,h4{
     font-family: 'Playfair Display', serif;
 }
-a{
+a:link{
     font-family: alegreya, serif;
-
+    font-size: 1.2rem;
     font-weight: 400;
-
-    font-style: italic;
+    color:#826f4b !important;
+    font-style: normal;
+    letter-spacing: .1rem;
+}
+a:hover{
+    font-family: alegreya, serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:#826f4b !important;
+    font-style: normal;
+    letter-spacing: .1rem;
+}
+.goldHr {
+    background-color:#826f4b;
+    min-height: .1rem;
 }
 #services{
-    background:#556b2f;
+    background:#3d4e22;
     color:white;
+    position: relative;
+    top:5rem;
+    left:10rem;
+}
+.btns{
+    border:0px;
+    background: #f0f0f0;
+    font-family: alegreya, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #535353;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.btns:hover{
+    border:0px;
+    background:#826f4b ;
+    font-family: alegreya, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f0f0f0;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px #444;
+    transition: all .3s ease-in-out;
 }
