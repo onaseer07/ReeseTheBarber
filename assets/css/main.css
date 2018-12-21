@@ -1,0 +1,14 @@
+h1,h2,h3,h4{
+    font-family: 'Playfair Display', serif;
+}
+a{
+    font-family: alegreya, serif;
+
+    font-weight: 400;
+
+    font-style: italic;
+}
+#services{
+    background:#556b2f;
+    color:white;
+}
