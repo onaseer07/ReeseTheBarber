@@ -1,3 +1,6 @@
+html,body {
+    height: 100%;
+}
 h1,h2,h3,h4{
     font-family: 'Playfair Display', serif;
 }
@@ -19,14 +22,21 @@ a:hover{
 }
 .goldHr {
     background-color:#826f4b;
-    min-height: .1rem;
+    min-height: .2rem;
 }
-#services{
-    background:#3d4e22;
-    color:white;
+#home {
+    height: 45%;
+}
+.grnCard {
+    background:#38471e;
     position: relative;
     top:5rem;
     left:10rem;
+    color: #f0f0f0;
+}
+#services{
+    color:#535353;
+
 }
 .btns{
     border:0px;

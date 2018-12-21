@@ -4,5 +4,5 @@
 //   , "images/cheers.jpg"
 // ], {duration: 3000, fade: 750});
 
-$("#main").backstretch('assets/images/woodBG.jpg');
+$("#home").backstretch('assets/images/woodBG.jpg');
 console.log('backstretch is configured');
