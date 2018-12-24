@@ -1,5 +1,6 @@
 html,body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 h1,h2,h3,h4{
@@ -21,12 +22,23 @@ a:hover{
     font-style: normal;
     letter-spacing: .1rem;
 }
+.grnHr {
+    background-color:#38471e;
+    min-height: .2rem;
+}
 .goldHr {
     background-color:#826f4b;
     min-height: .2rem;
 }
 #home {
     height: 50%;
+}
+.sansSerif {
+    font-family: 'Montserrat', sans-serif;
+}
+.gold-text {
+    color: #826f4b;
+    font-weight: bolder;
 }
 .grnCard {
     background:#38471e;
@@ -42,6 +54,9 @@ a:hover{
     color:#826f4b !important;
     font-style: normal;
 
+}
+.slideshow {
+   height: auto;
 }
 .btns{
     border:0px;
@@ -65,6 +80,11 @@ a:hover{
     box-shadow: 1px 1px 8px #444;
     transition: all .3s ease-in-out;
 }
+.outline {
+    border: .2rem;
+    border-style: solid;
+    border-color: white;
+}
 .grnContainer {
     background:#38471e;
     color:white;
@@ -77,3 +97,16 @@ a:hover{
 footer {
     color: #444;
 }
+
+
+@media (max-width: 576px) {
+    .grnCard {
+        background:#38471e;
+        position: relative;
+        top:0rem;
+        left:0rem;
+        color: #f0f0f0;
+        margin-bottom: 10rem;
+    }
+}
+
