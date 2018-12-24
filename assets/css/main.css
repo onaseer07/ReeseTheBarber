@@ -58,6 +58,20 @@ a:hover{
 .slideshow {
    height: auto;
 }
+.submit {
+    background: #38471e;
+    color: white;
+    border:0;
+    padding:1rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.submit:hover {
+    background: transparent;
+    color: white;
+    border:0;
+    transition: all .3s ease-in-out;
+}
 .btns{
     border:0px;
     background: #f0f0f0;
