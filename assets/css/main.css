@@ -1,12 +1,13 @@
 html,body {
     height: 100%;
 }
+
 h1,h2,h3,h4{
     font-family: 'Playfair Display', serif;
 }
 a:link{
     font-family: alegreya, serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color:#826f4b !important;
     font-style: normal;
@@ -14,7 +15,7 @@ a:link{
 }
 a:hover{
     font-family: alegreya, serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color:#826f4b !important;
     font-style: normal;
@@ -25,7 +26,7 @@ a:hover{
     min-height: .2rem;
 }
 #home {
-    height: 45%;
+    height: 50%;
 }
 .grnCard {
     background:#38471e;
@@ -35,7 +36,11 @@ a:hover{
     color: #f0f0f0;
 }
 #services{
-    color:#535353;
+    font-family: alegreya, serif;
+    /* font-size: 1.2rem; */
+    font-weight: 400;
+    color:#826f4b !important;
+    font-style: normal;
 
 }
 .btns{
@@ -59,4 +64,16 @@ a:hover{
     cursor: pointer;
     box-shadow: 1px 1px 8px #444;
     transition: all .3s ease-in-out;
+}
+.grnContainer {
+    background:#38471e;
+    color:white;
+    
+}
+.goldContainer {
+    background:#826f4b;
+    color:#38471e;
+}
+footer {
+    color: #444;
 }
