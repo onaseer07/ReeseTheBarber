@@ -97,16 +97,29 @@ a:hover{
 footer {
     color: #444;
 }
-
+.credits {
+    opacity: .2;
+    transition: all .3s ease-in-out;
+}
+.credits:hover {
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
 
 @media (max-width: 576px) {
     .grnCard {
         background:#38471e;
         position: relative;
-        top:0rem;
+        top:5rem;
         left:0rem;
         color: #f0f0f0;
         margin-bottom: 10rem;
+    }
+    #services{
+        margin-top:8rem;
+    }
+    .items {
+        margin-top: 1rem;
     }
 }
 
