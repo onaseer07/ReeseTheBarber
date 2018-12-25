@@ -18,9 +18,10 @@ a:hover{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#826f4b !important;
+    color:#38471e !important;
     font-style: normal;
     letter-spacing: .1rem;
+    text-decoration: none;
 }
 .grnHr {
     background-color:#38471e;

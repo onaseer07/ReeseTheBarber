@@ -1,17 +1,13 @@
 (function(){
-    emailjs.init("API KEY");
+    emailjs.init("user_0VjhhJRDUWJYP8bOlmWpE");
  })();
  window.onload = function() {
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
-        emailjs.sendForm('gmail', 'contact_form', this);
-        document.getElementById('usrname').value = '';
+        emailjs.sendForm('gmail', 'reesethebarber_com', this);
+        document.getElementById('name').value = '';
+        document.getElementById('tel').value = '';
         document.getElementById('email').value = '';
-        document.getElementById('telInput').value = '';
-        document.getElementById('eventLoc').value = '';
-        document.getElementById('eventDate').value = '';
-        document.getElementById('numGuests').value = '';
-        document.getElementById('cateringMsg').value = '';
-
+        document.getElementById('message').value = '';
     });
 };
