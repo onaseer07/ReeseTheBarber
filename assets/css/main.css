@@ -34,7 +34,7 @@ a:hover{
 #home {
     height: 50%;
 }
-.sansSerif {
+.sans-serif {
     font-family: 'Montserrat', sans-serif;
 }
 .gold-text {
@@ -50,14 +50,10 @@ a:hover{
 }
 #services{
     font-family: alegreya, serif;
-    /* font-size: 1.2rem; */
     font-weight: 400;
     color:#826f4b !important;
     font-style: normal;
 
-}
-.slideshow {
-   height: auto;
 }
 .submit {
     background: #38471e;
@@ -105,10 +101,27 @@ a:hover{
     color:white;
     
 }
+.lightgrnContainer {
+    background:#bed2aa;
+    color:white;
+    
+}
 .goldContainer {
     background:#826f4b;
     color:#38471e;
 }
+
+.services-header-sm {
+    visibility: hidden
+}
+.services-header-lg {
+    color:white;
+    /* text-shadow: 2px 8px 8px #444; */
+}
+/* .text-white {
+    color:white;
+    font-family: 'Niconne', cursive;
+} */
 footer {
     color: #444;
 }
@@ -155,5 +168,19 @@ input[type="color"]:focus {
     .items {
         margin-top: 1rem;
     }
+    .services-header-sm {
+        visibility: visible;
+    }
+    .services-header-lg {
+        visibility: hidden;
+        margin-top: 0!important;
+    }
+    .slideshow {
+        margin-bottom: 3rem;
+    }
+    .outline {
+        border: 0;
+        border-style: solid;
+        border-color: white;
+    }
 }
-
