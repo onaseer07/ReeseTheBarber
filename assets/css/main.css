@@ -157,7 +157,6 @@ input[type="color"]:focus {
         visibility: visible;
     }
     .services-header-lg {
-        visibility: hidden;
         display: none;
         margin-top: 0!important;
     }
