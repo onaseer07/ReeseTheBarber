@@ -26,8 +26,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
     <!-- Email.js API config -->
     <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
-
-    <!-- <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script> -->
+    <!-- firebase API config -->
+    <script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
 
 
 </head>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="col-lg-4 text-center">
                     </div>
-                    <div class="col-lg-4 text-center d-flex justify-content-center align-items-center">
+                    <div id="" class="col-lg-4 text-center d-flex justify-content-center align-items-center">
                         <h4 class="display-4 mt-lg-3 p-5 shadow-lg grn-card">Edge Up <br>&<br>Shave!<br>
                         <!-- Start Square Appointments Embed code --> <a target="_top" class="btns p-2 shadow-lg" href="https://squ.re/2sabg1k" rel="nofollow"> <!-- End Square Appointments Embed code -->BOOK HERE</a></h4>
                     </div>
@@ -84,8 +84,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 grnContainer shadow-lg p-5 d-flex justify-content-center align-items-center">
-                    <div class="grnContainer outline p-5">
+                <div class="col-lg-8 grn-container shadow-lg p-5 d-flex justify-content-center align-items-center">
+                    <div class="grn-container outline p-5">
                         <div class="row mb-3">
                             <div class="col-lg-6 items">
                                 <h4 class="display-4">Senior Haircut</h4>
@@ -124,7 +124,7 @@
                         </div>
                         <div class="row mb-3">
                             <div class="col-lg-6 items">
-                                <h4 class="display-4">Hot Towel Shave</h4>
+                                <h5 class="display-5">Hot Towel Shave</h5>
                                 <span class="sansSerif">Hot lather and straight razor face shave.</span>
                                 <span class="sansSerif gold-text">$25</span>
                             </div>
@@ -133,10 +133,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 shadow-lg goldContainer">
+                <div class="col-lg-4 shadow-lg gold-container">
                     <h2 class="display-2 p-3 services-header-lg text-left">Services</h2>
-                    <div class="goldContainer shadow-lg d-flex justify-content-center align-items-center slideshow">
-                        <div id="carouselExampleSlidesOnly" class="goldContainer carousel slide d-flex justify-content-lg-end" data-ride="carousel">
+                    <div class="gold-container shadow-lg d-flex justify-content-center align-items-center slideshow">
+                        <div id="carouselExampleSlidesOnly" class="gold-container carousel slide d-flex justify-content-lg-end" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="assets/images/works/clients.jpg" class="d-block img-fluid" alt="clients-photo">
@@ -156,17 +156,17 @@
         </section>
     
     <!--Reviews--> 
-        <!-- <section id="reviews">
+        <section id="reviews">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 d-flex justify-content-center goldContainer mt-5 p-5">
+                <div class="row p-5">
+                    <div class="col-lg-6 d-flex justify-content-center gold-container mt-5 p-5">
                         <span class="yelp-review" data-review-id="BlqFDjvCxEugWoE6W-uIQw" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=aJRXg6RdS22T8fnoyDOnlA" rel="nofollow noopener">Danielle V.</a>'s <a href="https://www.yelp.com/biz/luis-corner-barber-shop-austin-2?hrid=BlqFDjvCxEugWoE6W-uIQw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/a6QlDUaN9EA315evfjYFBQ" rel="nofollow noopener">Luis' Corner Barber Shop</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-center grnContainer mt-5 p-5">
+                    <div class="col-lg-6 d-flex justify-content-center grn-container mt-5 p-5">
                         <span class="yelp-review" data-review-id="hiGaBSDi7kGdT-zuGti7sg" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=ZVywuSdXoe9LNqYyf8J6LA" rel="nofollow noopener">Jared W.</a>'s <a href="https://www.yelp.com/biz/luis-corner-barber-shop-austin-2?hrid=hiGaBSDi7kGdT-zuGti7sg" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/a6QlDUaN9EA315evfjYFBQ" rel="nofollow noopener">Luis' Corner Barber Shop</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>                </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     <!-- Loyalty -->
     <section id="loyalty">
         <div class="container-fluid">
@@ -192,8 +192,8 @@
         <section id="contactMe">
             <div class="container">
                 <div class="row contact text-center p-5 mt-5">
-                    <div class="col-lg-6 shadow-lg goldContainer p-5">
-                        <h4 class="display-4 mt-5 text-white">Message Me</h4>
+                    <div class="col-lg-6 shadow-lg gold-container p-5">
+                        <h4 class="display-4 mt-2 text-white">Message Me</h4>
                         <form id="contact-form" class="text-left">
                             <div class="form-group sans-serif text-white">
                                 <label for="name">Name</label>
@@ -242,16 +242,21 @@
         <!-- <div class="container-fluid goldHr"></div> -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 copyrights text-center grnContainer">
+                <div class="col-lg-12 copyrights text-center grn-container">
+                    <small>© Copyright 2019 ReeseTheBarber.com</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-start">
                     <a href="https://www.osmannaseer.com"><img src="assets/images/credits.jpg" alt="" class="img-fluid float-left credits"></a>
-                    <small>© Copyright 2019 ReeseTheBarber.com - All Rights Reserved</small></div>
+                </div>
             </div>
         </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <script src="assets/js/modules/main.js"></script>
-    <!-- <script src="assets/js/modules/firebase.js"></script> -->
+    <script src="assets/js/modules/firebase.js"></script>
     <script src="assets/js/modules/email.js"></script>
     <script src="assets/js/libs/backstretch.js"></script>
 </body>

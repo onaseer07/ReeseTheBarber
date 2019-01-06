@@ -3,7 +3,7 @@ html,body {
     overflow-x: hidden;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family: 'Playfair Display', serif;
 }
 a:link{
@@ -94,7 +94,7 @@ a:hover{
     border-style: solid;
     border-color: white;
 }
-.grnContainer {
+.grn-container {
     background:#38471e;
     color:white;
     
@@ -104,7 +104,7 @@ a:hover{
     color:white;
     
 }
-.goldContainer {
+.gold-container {
     background:#826f4b;
     color:#38471e;
 }
@@ -120,7 +120,7 @@ footer {
     color: #444;
 }
 .credits {
-    opacity: .2;
+    opacity: .1;
     transition: all .3s ease-in-out;
 }
 .credits:hover {
