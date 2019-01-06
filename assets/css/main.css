@@ -23,14 +23,6 @@ a:hover{
     letter-spacing: .1rem;
     text-decoration: none;
 }
-.grnHr {
-    background-color:#38471e;
-    min-height: .2rem;
-}
-.goldHr {
-    background-color:#826f4b;
-    min-height: .2rem;
-}
 #home {
     height: 50%;
 }
@@ -51,7 +43,6 @@ a:hover{
     font-weight: 400;
     color:#826f4b !important;
     font-style: normal;
-
 }
 .submit {
     background: #38471e;
