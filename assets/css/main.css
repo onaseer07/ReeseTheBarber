@@ -109,12 +109,14 @@ a:hover{
     color:#38471e;
 }
 
+
 .services-header-sm {
-    visibility: hidden
+    visibility: hidden;
+    
 }
 .services-header-lg {
-    color:white;
-    /* text-shadow: 2px 8px 8px #444; */
+    color:#826f4b;
+    /* text-shadow: 2px 4px 13px #444; */
 }
 footer {
     color: #444;
@@ -156,6 +158,7 @@ input[type="color"]:focus {
     }
     .services-header-lg {
         visibility: hidden;
+        display: none;
         margin-top: 0!important;
     }
     .slideshow {
