@@ -41,13 +41,13 @@ a:hover{
     color: #826f4b;
     font-weight: bolder;
 }
-.grnCard {
+/* .grnCard {
     background:#38471e;
     position: relative;
     top:5rem;
     left:10rem;
     color: #f0f0f0;
-}
+} */
 #services{
     font-family: alegreya, serif;
     font-weight: 400;
@@ -154,14 +154,14 @@ input[type="color"]:focus {
 }
 
 @media (max-width: 576px) {
-    .grnCard {
+    /* .grnCard {
         background:#38471e;
         position: relative;
         top:5rem;
         left:0rem;
         color: #f0f0f0;
         margin-bottom: 10rem;
-    }
+    } */
     #services{
         margin-top:8rem;
     }
