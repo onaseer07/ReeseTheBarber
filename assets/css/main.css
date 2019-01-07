@@ -31,13 +31,13 @@ a:hover{
 }
 .gold-text {
     color: #826f4b;
-    font-weight: bolder;
 }
 .grn-card {
     background:#38471e;
     color: #f0f0f0;
     
 }
+
 #services{
     font-family: alegreya, serif;
     font-weight: 400;
@@ -98,16 +98,6 @@ a:hover{
 .gold-container {
     background:#826f4b;
     color:#38471e;
-}
-
-
-.services-header-sm {
-    visibility: hidden;
-    
-}
-.services-header-lg {
-    color:#826f4b;
-    /* text-shadow: 2px 4px 13px #444; */
 }
 footer {
     color: #444;
