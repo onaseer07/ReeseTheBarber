@@ -3,10 +3,22 @@ html,body {
     overflow-x: hidden;
 }
 
+#home {
+    height: 50%;
+}
+
 h1,h2,h3,h4,h5{
     font-family: 'Playfair Display', serif;
 }
 a:link{
+    font-family: alegreya, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:#826f4b !important;
+    font-style: normal;
+    letter-spacing: .1rem;
+}
+a:visited{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
@@ -23,9 +35,6 @@ a:hover{
     letter-spacing: .1rem;
     text-decoration: none;
 }
-#home {
-    height: 50%;
-}
 .sans-serif {
     font-family: 'Montserrat', sans-serif;
 }
@@ -40,15 +49,10 @@ a:hover{
 .strong {
     font-weight:bolder;
 }
-#services{
-    font-family: alegreya, serif;
-    font-weight: 400;
-    color:#826f4b !important;
-    font-style: normal;
-}
 .submit {
     background: #38471e;
     color: white;
+    font-weight: 400;
     border:0;
     padding:1rem;
     cursor: pointer;
@@ -56,7 +60,8 @@ a:hover{
 }
 .submit:hover {
     background: transparent;
-    color: white;
+    color: #38471e;
+    font-weight: 600;
     border:0;
     transition: all .3s ease-in-out;
 }
@@ -89,13 +94,11 @@ a:hover{
 }
 .grn-container {
     background:#38471e;
-    color:white;
-    
+    color:white;   
 }
-.lightgrnContainer {
+.light-container {
     background:#bed2aa;
-    color:white;
-    
+    color:white;  
 }
 .gold-container {
     background:#826f4b;
@@ -135,16 +138,6 @@ input[type="color"]:focus {
 @media (max-width: 576px) {
     .items {
         margin-top: 1rem;
-    }
-    .services-header-sm {
-        visibility: visible;
-    }
-    .services-header-lg {
-        display: none;
-        margin-top: 0!important;
-    }
-    .slideshow {
-        margin-bottom: 3rem;
     }
     .outline {
         border: 0;
