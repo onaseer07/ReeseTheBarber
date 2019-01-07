@@ -37,7 +37,9 @@ a:hover{
     color: #f0f0f0;
     
 }
-
+.strong {
+    font-weight:bolder;
+}
 #services{
     font-family: alegreya, serif;
     font-weight: 400;
