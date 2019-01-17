@@ -1,6 +1,6 @@
 html,body {
     height: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #home {
@@ -14,7 +14,7 @@ a:link{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#826f4b;
+    color:#826f4b !important;
     font-style: normal;
     letter-spacing: .1rem;
 }
@@ -22,7 +22,7 @@ a:visited{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#826f4b;
+    color:#826f4b !important;
     font-style: normal;
     letter-spacing: .1rem;
 }
@@ -30,7 +30,7 @@ a:hover{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#38471e;
+    color:#38471e !important;
     font-style: normal;
     letter-spacing: .1rem;
     text-decoration: none;
