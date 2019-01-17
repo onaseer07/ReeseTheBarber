@@ -14,7 +14,7 @@ a:link{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#826f4b !important;
+    color:#826f4b;
     font-style: normal;
     letter-spacing: .1rem;
 }
@@ -22,7 +22,7 @@ a:visited{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#826f4b !important;
+    color:#826f4b;
     font-style: normal;
     letter-spacing: .1rem;
 }
@@ -30,7 +30,7 @@ a:hover{
     font-family: alegreya, serif;
     font-size: 1.5rem;
     font-weight: 400;
-    color:#38471e !important;
+    color:#38471e;
     font-style: normal;
     letter-spacing: .1rem;
     text-decoration: none;
