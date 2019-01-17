@@ -145,3 +145,11 @@ input[type="color"]:focus {
         border-color: white;
     }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    /* CSS specific to iOS devices */ 
+  }
+  
+@supports not (-webkit-overflow-scrolling: touch) {
+    /* CSS for other than iOS devices */ 
+  }
