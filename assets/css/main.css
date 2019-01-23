@@ -109,7 +109,7 @@ section#reviews {
 	/* width:60%; */
 	margin:100px auto;
 }
-blockquote {
+.blockquote {
     text-align:center;
     color:#38471e;
 	font-size:20px;
@@ -118,7 +118,7 @@ blockquote {
 	position:relative;
 	quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote:after {
+.blockquote:after {
 	color:#826f4b;
 	font-family:Source Sans Pro;
 	content: open-quote;
@@ -133,7 +133,7 @@ blockquote:after {
 	text-align:center;
 	transform:translateX(-50%);
 }
-blockquote p {
+.blockquote p {
 	padding:20px;
 }
 footer {
