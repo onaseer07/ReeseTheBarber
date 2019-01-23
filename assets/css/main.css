@@ -4,7 +4,7 @@ html,body {
 }
 
 #home {
-    height: 75%;
+    height: 50%;
 }
 
 h1,h2,h3,h4,h5{
@@ -103,6 +103,39 @@ a:hover{
     background:#826f4b;
     color:#38471e;
 }
+section#reviews {
+	/* box-shadow:0 2px 5px rgba(0,0,0,0.2); */
+	background:transparent;
+	/* width:60%; */
+	margin:100px auto;
+}
+blockquote {
+    text-align:center;
+    color:#38471e;
+	font-size:20px;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	position:relative;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:after {
+	color:#826f4b;
+	font-family:Source Sans Pro;
+	content: open-quote;
+	font-size:80px;
+	position:absolute;
+	left:50%;
+	bottom:calc(100% - 20px);
+	background:#fff;
+	height:55px;
+	width: 55px;
+	line-height:normal;
+	text-align:center;
+	transform:translateX(-50%);
+}
+blockquote p {
+	padding:20px;
+}
 footer {
     color: #444;
 }
@@ -142,6 +175,9 @@ input[type="color"]:focus {
         border: 0;
         border-style: solid;
         border-color: white;
+    }
+    #home {
+        height: 75%;
     }
 }
 
